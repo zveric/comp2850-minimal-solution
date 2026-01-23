@@ -86,7 +86,7 @@
                    aria-describedby="search-hint"
                    value="{{ query | default('') }}">
 
-            <small id="search-hint">Filters tasks as you type; works without JavaScript.</small>
+            <small id="search-hint">Search Tasks by their title, To tag tasks add the tag into the task title.</small>
             <button type="submit">Apply Filter</button>
         </form>
     </section>
